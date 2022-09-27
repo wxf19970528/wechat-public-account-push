@@ -31,11 +31,11 @@ const USER_CONFIG = {
     // 金山每日一句
     CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: false,
+    momentCopyrighting: true,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
@@ -65,7 +65,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '张世清',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'om2_m5m7vUtC2G9P1rZ2un9P793k',
+      id: 'om2_m5niYf4SS_tqU9NaXnV3H1A0',
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'y4TL8LbMV2Jp1w4h6HK0CLzdRy2oGHLVCUn82XdS2jg',
       // 所在省份
@@ -80,14 +80,14 @@ const USER_CONFIG = {
       openUrl: 'https://wangxinleo.cn',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '老婆', year: '1994', date: '07-26',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '节日', name: '恋爱纪念日', year: '2020', date: '09-06',
-        }
+//         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+//         {
+//           type: '*生日', name: '老婆', year: '1994', date: '07-26',
+//         },
+//         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+//         {
+//           type: '节日', name: '恋爱纪念日', year: '2020', date: '09-06',
+//         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
