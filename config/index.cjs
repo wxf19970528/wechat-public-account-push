@@ -65,9 +65,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '张世清',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'om2_m5niYf4SS_tqU9NaXnV3H1A0',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: '_VUFEKYaSGpB-9OP4EIOCC6ZK0mu3ydST6u0bjShnzI',
       // 所在省份
       province: '北京',
       // 所在城市
